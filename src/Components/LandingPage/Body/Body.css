@@ -1,0 +1,244 @@
+.landing-body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+ 
+
+
+}
+
+.body-social-icons {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 45px;
+  margin-top: 215px;
+  row-gap: 30px;
+}
+
+.socialIcon {
+  color: var(--black);
+  font-size: 28px;
+}
+
+.vertical-line {
+  width: 0;
+  height: 101px;
+  top: 568px;
+  left: 118px;
+  background: var(--black);
+  border: 2.43px solid var(--black);
+}
+
+.main-Body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  column-gap: 60px;
+  justify-content: center;
+  
+}
+
+.main-body-items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* margin-left: 325px; */
+  /* margin-top: 220px; */
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.main-body-title {
+  width: 100%;
+  text-align: center;
+  /* margin-left: -406px; */
+  /* margin-top: -185px; */
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.main-body-text {
+  /* margin-left: -207px; */
+  margin-top: 8px;
+  font-size: 59px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-wrap: wrap;
+  /* white-space: pre-wrap; */
+}
+
+.main-Body p {
+  /* margin-left: -207px; */
+  /* margin-top: 10px; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-wrap: wrap;
+  /* white-space: pre-wrap; */
+}
+
+.btns {
+  display: flex;
+  /* margin-left: -617px; */
+  margin-top: 18px;
+  justify-content: left;
+}
+.googleplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 178.32px;
+  height: 55.18px;
+  top: 717px;
+  /* left: 194px; */
+  margin-right: 9px;
+  border: 1px solid var(--black);
+}
+.googel-text {
+  display: flex;
+  flex-direction: column;
+}
+.googleplay-icon {
+  font-size: 40px;
+}
+
+.google-firsttext {
+  font-size: 10px;
+}
+.google-secondtext {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.appstore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 178.32px;
+  height: 55.18px;
+  top: 717px;
+  /* left: 194px; */
+  border: 1px solid var(--black);
+}
+
+.appstore-icon {
+  font-size: 40px;
+  padding-right: 9px;
+}
+.appstore-text {
+  display: flex;
+  flex-direction: column;
+}
+.appstore-firsttext {
+  font-size: 14px;
+}
+.appstore-secondtext {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.singup-btn {
+  text-align: center;
+  padding:20px;
+  /* margin-left: -791px; */
+  margin-top: 20px;
+  width: 201px;
+  height: 60px;
+  top: 805px;
+  left: 188px;
+  border-radius: 30px;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.first-Bg-Img {
+  height: 75vh;
+  width: 400px;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(
+    rgba(49, 48, 51, 0.25) 0%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  align-self: center;
+  position: relative;
+  left: 220px;
+  z-index: 5;
+  bottom: -80px;
+}
+.second-Bg-Img {
+  height: 85vh;
+  width: 400px;
+  backdrop-filter: blur(7.5px);
+  background: linear-gradient(
+    rgba(49, 48, 51, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  align-self: center;
+  z-index: 7;
+  position: relative;
+  left: 110px;
+  bottom: -80px;
+}
+
+
+.body-Img {
+  width: 100%;
+  height: 100vh;
+  z-index: 8;
+  position: relative;
+  top: -102px;
+  right: 0;
+  object-fit: cover;
+  bottom: 0;
+}
+
+.body-image {
+  width: 100%;
+  /* height: 564.84px; */
+ height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.laws {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.terms {
+  color: var(--black);
+  text-decoration: none;
+  margin-right: 40px;
+}
+.privacy {
+  color: var(--black);
+  text-decoration: none;
+}
+.typography {
+  margin-top: 20px;
+}
+.copyright {
+  color: var(--black);
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.carousel-container{
+    height: 1000px;
+}
+.carousels-img{
+    width: 100%;
+    height: 1084px;
+    object-fit: cover;
+    border-top-right-radius:15px; 
+    border-top-left-radius:15px; 
+}

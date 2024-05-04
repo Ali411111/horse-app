@@ -1,0 +1,71 @@
+.notifications-container{
+    height: 100vh;
+}
+.notification-title{
+    display: flex;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+padding-left: 40px;
+padding-top: 20px;
+
+}
+
+.notifications-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.notifications-left-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.notifications-right-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #8F8F8F;
+}
+
+.notification-main-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.img-message-container{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.img-message-container img{
+    width: 61.01px;
+    height: 61.01px;
+    border-radius: 50%;
+
+}
+
+.img-message-container span{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    
+}
+
+.check-notification-icon{
+    font-size: 30px;
+}
+
+
+.no-data-found{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}

@@ -1,0 +1,46 @@
+.logout-modal{
+    background-color:var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px;
+    border-radius: 15px;
+}
+
+.warning-icon{
+    font-size: 80px;
+}
+
+
+.logout-modal span{
+    font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+padding-top: 15px;
+}
+
+
+
+
+.logout-modal-btns{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding-top: 25px;
+}
+
+.yes-btn{
+    width: 189px;
+    height: 60px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 30px;
+}
+.no-btn{
+    width: 189px;
+    height: 60px;
+background-color: #E1E1E1;
+color: var(--black);
+border-radius: 30px;
+}

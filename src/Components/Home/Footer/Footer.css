@@ -1,0 +1,140 @@
+.footer {
+  background: linear-gradient(180deg, #313033 0%, #000000 100%);
+  /* margin-top: 30px; */
+}
+
+.footer-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 60px;
+  flex-wrap: wrap;
+}
+
+.footer-leftside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 60px; */
+  margin-top: 55px;
+}
+
+.footer-leftside-title {
+  font-family: Bookman Old Style;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: left;
+  color: var(--white);
+  padding-top: 20px;
+  margin-left: -40px;
+}
+
+.footer-leftside-social-icons {
+  display: flex;
+  align-items: center;
+  /* margin-top: -20px; */
+  /* margin-left: -23px; */
+}
+
+.horizontal-line {
+  font-size: 80px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.SocialIcon {
+  color: var(--white);
+  margin-right: 20px;
+}
+
+.footer-centerside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.termsandpolicy span {
+  color: var(--white);
+  margin-right: 50px;
+}
+
+.footer-copyright {
+  padding-top: 20px;
+}
+
+.footer-copyright span {
+  color: var(--white);
+}
+
+.Btns {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+.Googleplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 178.32px;
+  height: 55.18px;
+  top: 717px;
+  left: 194px;
+  margin-right: 9px;
+  border: 1px solid var(--white);
+  background: unset;
+}
+.Googel-text {
+  display: flex;
+  flex-direction: column;
+}
+.Googleplay-icon {
+  font-size: 40px;
+  color: var(--white);
+}
+
+.Google-firsttext {
+  font-size: 10px;
+  color: var(--white);
+}
+.Google-secondtext {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.Appstore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 178.32px;
+  height: 55.18px;
+  top: 717px;
+  left: 194px;
+  border: 1px solid var(--white);
+  background: unset;
+}
+
+.Appstore-icon {
+  font-size: 40px;
+  padding-right: 9px;
+  color: var(--white);
+}
+.Appstore-text {
+  display: flex;
+  flex-direction: column;
+}
+.Appstore-firsttext {
+  font-size: 14px;
+  color: var(--white);
+}
+.Appstore-secondtext {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--white);
+}

@@ -1,0 +1,211 @@
+.upgrade-form{
+   max-width: 928px;
+    background-color: var(--white);
+    margin: 15px auto;
+}
+
+.upgrade-form-title{
+    padding-left: 40px;
+font-size: 40px;
+font-weight: 700;
+line-height: 70px
+
+}
+
+.boxes-container{
+    margin:20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.free-box{
+   width: 242px;
+   height: 121px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+    background: #EEEAE7;
+    border-radius: 15px;
+
+}
+
+.free-box input{
+    position: relative;
+    right:-100px;
+    top: -40px;
+}
+
+.title-of-box{
+    padding-left: 15px;
+    padding-bottom: 5px;
+   
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+
+
+}
+.price-of-box{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    
+font-size: 30px;
+font-weight: 600;
+line-height: 20px;
+
+
+}
+
+.premium-box{
+    width: 242px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: #DBE2E0;
+    border-radius: 15px;
+
+}
+.premium-box input{
+    position: relative;
+    right:-100px;
+    top: -40px;
+}
+.platinum-box{
+   width: 242px;
+   height: 121px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+    background: #617D86;
+    border-radius: 15px;
+
+}
+.platinum-box input{
+    position: relative;
+    right:-100px;
+    top: -40px;
+}
+
+
+.upgrade-form-add-card-btn{
+    margin: 40px auto;
+    width: 387px;
+    height: 60px;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.upgrade-form-add-card-btn-icon{
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.cardnumber-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardnunber-title{
+    padding-left: 40px;
+}
+.cardnumber-container input{
+    background: #F4F4F4;
+    margin: 7px 40px;
+    height: 60px;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.date-cvv-container{
+    display: flex;
+    align-items: center;
+    margin: 35px 40px;
+    column-gap: 30px;
+}
+
+.Expirationdate-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Expirationdate-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+
+.cvv-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cvv-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.Cardholdername-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Cardholdername-title{
+    padding-left: 40px;
+}
+
+.Cardholdername-container input{
+    background: #F4F4F4;
+    margin: 5px 40px;
+    height: 60px;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.upgrade-buttons-container{
+    width: 100%;
+    padding: 20px 40px;
+
+}
+
+.upgrade-form-edit-btn{
+    width:100%;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #E1E1E1;
+}
+
+.upgrade-form-confirm-btn{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:var(--black);
+    color: var(--white);
+}
+
+.upgrade-form-cancel-btn{
+    width:100%;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: var(--white);
+}

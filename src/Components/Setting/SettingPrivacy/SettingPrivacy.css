@@ -1,0 +1,14 @@
+.Privacy-container{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Privacy-title{
+font-size: 40px;
+font-weight: 700;
+line-height: 70px;
+padding-bottom: 20px;
+
+}

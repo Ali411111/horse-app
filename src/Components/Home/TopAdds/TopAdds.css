@@ -1,0 +1,28 @@
+.Topadds {
+  width: 100%;
+}
+
+.TopAdds-title {
+  width: 100%;
+}
+.TopAdds-title-span {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+}
+
+.Topadds-images {
+  margin: 40px auto 0;
+  max-width: 1284px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(388px, auto));
+  row-gap: 40px;
+  grid-column-gap: 20px;
+  margin-bottom: 30px;
+}
+

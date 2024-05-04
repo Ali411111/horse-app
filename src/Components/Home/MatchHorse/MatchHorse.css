@@ -1,0 +1,89 @@
+.match-horse-container {
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.match-horse-form {
+  margin: 30px auto 10px;
+  background-color: var(--white);
+  max-width: 928px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.matchhorse-title {
+  display: flex;
+  justify-content: center;
+  font-family: Bookman Old Style;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 59px;
+  padding-top: 70px;
+}
+
+.match-horse-img {
+  width: 388px;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.like-dislike-btns {
+  margin: 0 auto;
+  display: flex;
+  column-gap: 100px;
+}
+
+.dislike-button {
+  width: 89.44px;
+  height: 89.44px;
+  border-radius: 50%;
+}
+.like-button {
+  width: 89.44px;
+  height: 89.44px;
+  border-radius: 50%;
+}
+
+.dislike-icon {
+  color: #ea0000;
+  width: 52.39px;
+  height: 50.37px;
+}
+.like-icon {
+  color: #00b027;
+  width: 52.39px;
+  height: 50.37px;
+}
+
+.viwe-details-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  align-items: center;
+  background: unset;
+}
+
+.arrow-up-icon {
+  font-size: 40px;
+}
+
+.viwe-details-container span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.close-matchhorse-btn {
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  margin: 20px 220px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: 30px;
+}

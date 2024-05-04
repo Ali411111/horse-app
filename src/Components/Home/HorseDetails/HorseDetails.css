@@ -1,0 +1,179 @@
+.horse-details-container{
+    background: #F4F4F4;
+
+}
+.horsedetails-form{
+    max-width: 928px;
+    margin: 20px auto 0;
+    background-color: var(--white);
+    border-radius: 15px;
+
+}
+
+.profile-img-blur-part{
+   margin-top: -19px;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.profile-img-blur-part span{
+    color: var(--white);
+    padding-left: 10px;
+}
+.profile-img-blur-part img{
+    width: 52px;
+    height: 52px;
+    border-radius: 13px;
+    border: 2.74px solid #FFFFFF;
+    box-shadow: 0px 7.800000190734863px 13.000000953674316px 0px #00000026;
+
+}
+
+.message-like-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    z-index: 5;
+    margin-top: -51px;
+    margin-right: 30px;
+    column-gap: 15px;
+}
+
+.like-horse-btn{
+    width: 92.92px;
+    height: 92.92px;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: 0px 6px 10px 0px #00000040;
+
+
+}
+.email-horse-btn{
+    width: 92.92px;
+    height: 92.92px;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: 0px 6px 10px 0px #00000040;
+
+
+}
+
+.like-horse-icon{
+    font-size: 40px;
+}
+.email-horse-icon{
+    font-size: 40px;
+}
+
+.name-of-horse{
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+padding-left: 30px;
+
+}
+
+.location-duration-container{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.location-duration-container span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.horse-location-icon{
+    color: #EA0000;
+    font-size: 20px;
+}
+
+.price-of-horse{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+font-size: 40px;
+font-weight: 600;
+line-height: 60px;
+margin-top: -20px;
+}
+
+.horsedetails-describtion{
+   padding: 20px 190px 10px 30px;
+    display: flex;
+font-size: 18px;
+font-weight: 400;
+line-height: 16px;
+text-align: justify;
+
+}
+
+.Characteristics-title{
+    display: flex;
+    padding: 20px 0 20px 30px;
+    font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+
+}
+
+
+.Characteristics-part{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 70px;
+   padding-left: 30px;
+   padding-bottom: 80px;
+}
+
+.breed-part-container,
+.Gender-part-container,
+.Age-part-container,
+.Color-part-container,
+.Height-part-container,
+.Temperament-part-container,
+.Discipline-part-container,
+.Price-part-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.breed-part-title,
+.Gender-part-title,
+.Age-part-title,
+.Color-part-title,
+.Height-part-title,
+.Temperament-part-title,
+.Discipline-part-title,
+.Price-part-title{
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+
+
+}
+
+
+.breed-part-value,
+.Gender-part-value,
+.Age-part-value,
+.Color-part-value,
+.Height-part-value,
+.Temperament-part-value,
+.Discipline-part-value,
+.Price-part-value{
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding-top: 5px;
+
+
+}

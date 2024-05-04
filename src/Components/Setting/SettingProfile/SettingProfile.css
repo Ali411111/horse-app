@@ -1,0 +1,192 @@
+.setting-profile-form{
+    max-width: 928px;
+    background-color: var(--white);
+    margin: 15px auto;
+    border-radius: 15px;
+    
+}
+
+.profile-form-title-part{
+    width: 100%;
+    height: 233px;
+    background-color: var(--black);
+    border-radius: 15px;
+}
+
+.profile-form-title{
+    display: flex;
+    color: var(--white);
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 70px;
+padding: 30px;
+padding-top: 30px;
+
+}
+
+.profile-form-img{
+    width: 167px;
+    height: 167px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profile-form-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -83px;
+    border-radius: 50%;
+    box-shadow: 0px 5.566666603088379px 13.916666030883789px 0px #0000001A;
+    border: 4.18px solid #FFFFFF
+}   
+
+.profile-form-icon{
+    position: absolute;
+    bottom:-40px;
+    right:-110px;
+    width: 42px;
+    height: 42px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #E1E1E1;
+    color: var(--white);
+
+}
+
+.profile-form-icon.active{
+    background-color: var(--black);
+}
+
+.fullname-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.fullname-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+.Email-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.Email-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+
+.bio-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.bio-container textarea{
+    height: 195px;
+    background: #F4F4F4;
+    border-radius: 15px;
+    text-indent:10px
+}
+
+.Address-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.Address-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+.City-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.City-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+.Zipcode-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.Zipcode-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+.State-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.State-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+.Country-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+}
+
+.Country-container input{
+    width: 100%;
+    background: #F4F4F4;
+    height: 60px;
+    border-radius: 15px;
+    text-indent:10px
+}
+
+.profile-form-edit-button{
+    width: 100%;
+    padding: 20px 40px;
+
+}
+
+.profile-form-edit-btn{
+    width:100%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #E1E1E1;
+}
+
+.EmailInput{
+    color: rgba(0, 0, 0, 0.38);
+
+}
+

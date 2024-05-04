@@ -1,0 +1,17 @@
+@import './reset.css';
+
+ @font-face{
+    font-family: Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+:root{
+    --white_50: #0000001A;
+    --black: #313033;
+    --white: #FFFFFF;
+    
+}
+
+*,body,html{
+    font-family: Poppins;
+}

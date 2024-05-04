@@ -1,0 +1,22 @@
+
+
+.recentlyadd-title span {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+}
+
+.recentlyadd-images {
+  margin: 40px auto 0;
+  max-width: 1284px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(388px,auto));
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  grid-column-gap: 20px;
+}
+

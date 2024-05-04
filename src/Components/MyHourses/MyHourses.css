@@ -1,0 +1,123 @@
+.myhorses-title {
+  display: flex;
+  font-size: 33px;
+  font-weight: 700;
+  padding-left: 218px;
+  margin-top: 40px;
+}
+
+.myhorses-images {
+  margin: 40px 70px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(388px, auto));
+  justify-content: center;
+  grid-gap: 45px;
+}
+
+.myhorse-card-container {
+  width: 388px;
+  height: 632px;
+  /* display: flex;
+    flex-direction: column; */
+  box-shadow: 0px 10px 10px 0px #0000001a;
+  border-radius: 30px;
+}
+
+.myhorse-card-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.myhorse-like-btn {
+  width: 88px;
+  height: 50px;
+  position: relative;
+  top: -176px;
+  right: -281px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  z-index: 15;
+}
+
+.myhorse-like-icon {
+  color: black;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.myhorse-texts-btns {
+  width: 388px;
+  height: 146px;
+  background: #1b18194d;
+  z-index: 10;
+  position: relative;
+  top: -199px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.myhorse-texts-btns span {
+  color: var(--white);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 10px;
+}
+.myhorse-texts-btns p {
+  color: var(--white);
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.myhorse-removeadds {
+  background: linear-gradient(0deg, #800020, #800020),
+    linear-gradient(180deg, #ffffff 40.75%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 30px 0px 30px 0px;
+  width: 321px;
+  height: 53px;
+  position: relative;
+  bottom: -5px;
+  left: 37px;
+  text-align: left;
+  padding-left: 22px;
+}
+.myhorse-edit {
+  background-color: var(--white);
+  width: 226px;
+  height: 53px;
+  border-radius: 30px 0px 30px 0px;
+  position: relative;
+  bottom: 48px;
+  left: 163px;
+  text-align: left;
+  padding-left: 40px;
+}
+.myhorse-details {
+  width: 127px;
+  height: 53px;
+  border-radius: 30px 0px 30px 0px;
+  position: relative;
+  background-color: var(--black);
+  color: var(--white);
+  bottom: 50px;
+  left: 35px;
+}
+
+.myhorses-reedmore {
+  text-decoration: none;
+  color: #a4a4a4;
+}

@@ -1,0 +1,50 @@
+.myfavoriteHorse {
+  display: flex;
+  flex-direction: column;
+}
+
+.myfavoriteHorse-btns {
+  /* width: 1088px; */
+  width: 100%;
+  padding: 30px 100px 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.favorite-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  /* padding: 10px 200px; */
+  border-radius: 50px;
+}
+.myhorses-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  /* padding: 10px 200px; */
+  border-radius: 50px;
+}
+
+.myfavoriteHorse-images-span {
+  font-size: 33px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-left: 242px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.favorite-btn.active {
+  background-color: var(--black);
+  color: var(--white);
+}
+.myhorses-btn.active {
+  background-color: var(--black);
+  color: var(--white);
+}

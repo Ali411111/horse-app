@@ -1,0 +1,348 @@
+
+.seller-body{
+    background: #f4f4f4;
+
+}
+
+.seller-form-subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    padding-left: 40px;
+}
+
+.chosee-file{
+    margin: 0 170px;
+    height: 302px;
+    border: 2px dashed #666666;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chosee-file h3{
+    font-size: 22px;
+font-weight: 600;
+line-height: 23px;
+color: var(--black);
+}
+
+
+.add-horse-img{
+    border: 1.66px solid #666666;
+    color: #666666;
+    width: 73px;
+    height: 73px;
+    font-size: 60px;
+    border-radius: 15px;
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Location-container,.nameofhourse-container,.city-container,.zip-container,.state-container,.breed-container,.yearofbrith-container,.height-container,.price-container,.Discipline-container,.color-container,.Temperament-container,.discribehourse-container,.Input-keywords-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px;
+}
+
+.nameofhourse-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.nameofhourse-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+
+.Location-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.Location-container select{
+    background: #f4f4f4;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px 40px;
+}
+
+
+
+.city-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.city-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+
+.zip-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.zip-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+
+.state-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.state-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+
+.breed-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.breed-container select{
+    background: #f4f4f4;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px 40px;
+}
+
+
+
+.yearofbrith-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.yearofbrith-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+.height-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.height-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+
+.price-input-container{
+  
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+ .price-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+
+}
+
+.price-container input{
+    width: 100%;
+    padding: 5px 40px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+.dollar{
+    position: absolute;
+    top: 23px;
+    left: 28px;
+}
+
+
+.Discipline-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.Discipline-container select{
+    background: #f4f4f4;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px 40px;
+}
+.color-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.color-container select{
+    background: #f4f4f4;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px 40px;
+}
+.Temperament-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.Temperament-container select{
+    background: #f4f4f4;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px 40px;
+}
+
+
+.discribehourse-container span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.discribehourse-container textarea{
+    background: #f4f4f4;
+    border-radius: 15px;
+    height: 215px;
+    padding: 5px 40px;
+}
+
+
+
+.Input-keywords-container span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  
+  .Input-keyword{
+    position: relative;
+  }
+
+  .Input-keyword input {
+    width: 100%;
+    background: #f4f4f4;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px 40px;
+  }
+
+  .Input-keyword button {
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 50px;
+    border-radius: 18px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .addanother-btn-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px;
+  }
+
+  .addanother-btn-container span{
+    padding-top: 10px;
+  }
+
+  .addanother-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(0deg, #868686, #E1E1E1);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 35px;
+  }
+
+.create-btn-container{
+    display: flex;
+    padding: 40px 40px;
+} 
+
+.create-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background:var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+
+.imageHorse{
+   display: none;
+}
+.imageHorse.active{
+    width: 40px;
+    height: 40px;
+    padding-top: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
